@@ -1,5 +1,5 @@
-# Chhatra-Vritti
->```Chhatra-Vritti``` a complete mern based web Application for providing scholarships to students all over the world to pursue their dream .
+# PM-SS-Scholarship
+>```PMSSScholarship``` a complete mern based web Application for providing scholarships to students all over the world to pursue their dream .
 This Application is aimed to provide scholarship and make it available for everyone in need....
 Author : [Mayank Kumar](mayankk1903@gmail.com)
 ## Introduction-
@@ -44,13 +44,5 @@ Author : [Mayank Kumar](mayankk1903@gmail.com)
 
 
 
-## Contributing
 
-We welcome contributions! If you have an idea for a new feature or have found a bug, please open an issue on Github. 
-
-## 📝 Endnote
-So if you have liked this project then do consider giving it a star which will encourage me to build more of this kind of projects in future and also if you want youcan follow me on [Github](https://github.com/Mayankkumar1903) 😊
-Keep Coding !
-
-<p align="right">~ Mayank Kumar</p>
 

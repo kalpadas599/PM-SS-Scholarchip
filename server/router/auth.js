@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const session = require("express-session");
-const db = add url here
+const db = "mongodb://localhost:27017/"
 const User = require("../model/userSchemaa");
 
 const requireLogin = (req, res, next) => {
