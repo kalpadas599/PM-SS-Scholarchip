@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const router = express.Router();
 const session = require("express-session");
 // const {requireAdminLogin} = require("./adminAuth.js")
-const db = "mongodb://localhost:27017/"
+const db = "mongodb+srv://subhamondal2022:adminSUBHA2004@cluster0.qvp4u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const Scholarships = require("../model/scholarshipModel.js");
 
 

@@ -12,7 +12,7 @@ const Contact = () => {
               <ul className="contact-list">
                 <li>
                   <a
-                    href="mailto:support@website.com"
+                    href="mailto:learncswithsubha@gmail.com"
                     className="contact-link"
                     style={{ textDecoration: "none" }}
                   >

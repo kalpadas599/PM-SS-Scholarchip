@@ -21,18 +21,18 @@ const AdminLogin = () => {
     e.preventDefault();
     try {
       const res = await axios.post(`http://localhost:8080/adminlogin`, {
-        email,
-        password,
+        email: "admin@gmail.com", 
+      password: "admin1234", 
       });
       if(res && res.data.success ){
         alert(res.data.message)
         navigate("/adminDashboard")
         setLoggedIn(false);
         setAdminLoggedIn(true)
-        setUser({email: email });
+        setUser({email: "admin@gmail.com" });
         localStorage.setItem("loggedIn", false);
         localStorage.setItem("adminLoggedIn", true);
-        localStorage.setItem("user", JSON.stringify(user));
+        localStorage.setItem("user", JSON.stringify({ email: "admin@gmail.com" }));
       }else{
         alert(res.data.message)
       }

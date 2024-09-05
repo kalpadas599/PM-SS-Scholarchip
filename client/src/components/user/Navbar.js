@@ -38,7 +38,7 @@ const Navbar = () => {
         <nav className="nav">
           <div className="logo" data-aos="fade-down" data-aos-duration="100">
             {/* <a href="/" style={{ textDecoration: "none" }}> */}
-              <h2> छात्रवृत्ति </h2>
+              <h2> PMSSS </h2>
             {/* </a> */}
           </div>
           <div className="nav_menu" id="nav_menu">

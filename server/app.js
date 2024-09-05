@@ -17,17 +17,19 @@ app.use(
     cookie: { secure: false }, // set secure to true if using HTTPS
   })
 );
-const db = "mongodb://localhost:27017/"
-// "mongodb+srv://username:admitpassword@cluster0.8swhukd.mongodb.net/?retryWrites=true&w=majority"
+const db = "mongodb+srv://subhamondal2022:adminSUBHA2004@cluster0.qvp4u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 
 
 mongoose
-  .connect(db)
+  .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log("Connection Successful");
   })
-  .catch((err) => console.log("error : ", err));
-
+  .catch((err) => {
+    console.error("Connection error:", err);
+  });
+  
 app.use(express.json());
 app.use(cors());
 // User
