@@ -44,13 +44,4 @@ This Application is aimed to provide scholarship and make it available for every
 
 
 
-## Contributing
-
-We welcome contributions! If you have an idea for a new feature or have found a bug, please open an issue on Github. 
-
-## 📝 Endnote
-So if you have liked this project then do consider giving it a star which will encourage me to build more of this kind of projects in future and also if you want youcan follow me on [Github](https://github.com/Mayankkumar1903) 😊
-Keep Coding !
-
-<p align="right">~ Mayank Kumar</p>
 
