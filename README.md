@@ -1,7 +1,7 @@
 # PM-SS-Scholarship
 >```PMSSScholarship``` a complete mern based web Application for providing scholarships to students all over the world to pursue their dream .
 This Application is aimed to provide scholarship and make it available for everyone in need....
-Author : [Mayank Kumar](mayankk1903@gmail.com)
+
 ## Introduction-
 
 ## 🛠️ Built with :
